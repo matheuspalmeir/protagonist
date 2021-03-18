@@ -2,7 +2,7 @@
 
 Olá avaliador, tudo bem? 
 Eu batizei a minha jornada de desafios técnicos como "Protagonist". 
-No primeiro episódio da série "Protagonist", enfrentei o exercício 1! [top](#people--body) | :muscle: | `:muscle:`  
+No primeiro episódio da série "Protagonist", enfrentei o exercício 1! :muscle:
 Neste projeto, além de uma tipografia componentizada, você encontrará uma estrutura que permite criar vários temas e estilos globais para uma aplicação.
 Espero que goste! :relaxed: 
 
