@@ -25,6 +25,11 @@ interface DynamicI {
     children: any
 }
 
+/**
+ * Dynamic is a component to receive exact, with size style props that comes from a "mother component".
+ *  This component should be use like a child if you want to create a new typography component.  
+*/
+
 const Dynamic = ({children, ...props} : DynamicI) =>( 
     <StyledDiv {...props}>
         {children}

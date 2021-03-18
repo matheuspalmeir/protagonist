@@ -1,3 +1,4 @@
 export interface ThemeProps {
-    children: any; 
+    children: any;
+    theme?: any, 
 }

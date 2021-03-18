@@ -2,7 +2,7 @@ import {RouteI} from './interfaces';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import Home from '../pages/index';
-import Maintheme from '../components/themes/main/MainTheme';
+import Maintheme from '../components/themes/main';
 
 const routes : Array<RouteI> = [
     {

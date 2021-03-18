@@ -14,7 +14,7 @@ interface FontStylesI {
     fontWeight: number,
     lineHeight?: Array<string>,
     letterSpacing?: string,
-    color?: TypeColor
+    color?: string,
 }
 
 export interface BaseFontI {
