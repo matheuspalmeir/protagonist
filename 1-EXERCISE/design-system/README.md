@@ -45,6 +45,7 @@ Ainda estando no diretório do projeto, para inicializa-lo execute:
 yarn start
 ```
 Verifique se a execução foi correta, em seguida basta abrir o endereço [http://localhost:3000](http://localhost:3000) no navegador. 
+Na homepage você encontrará amostras do uso de Cores e de Tipografia. 
 
 # Compreendendo como a Tipografia e os componentes funcionam
 
