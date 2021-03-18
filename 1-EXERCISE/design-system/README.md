@@ -10,7 +10,7 @@ Espero que goste! :relaxed:
 
 # Clonando o projeto e instalando as dependências
 
-O projeto foi desenvolvido com React JS, portanto para executá-lo precisamos garantir que sua máquina possua o [NPM](https://www.npmjs.com/get-npm) ou [YARN](https://classic.yarnpkg.com/en/docs/install/#windows-stable) para gerenciar as bibliotecas e pacotes. Caso seja necessário, instale também o [Node JS](https://nodejs.org/en/download/). Assegurado que sua máquina possui essas dependências instaladas. vamos clonar o projeto. 
+O projeto foi desenvolvido com React JS, portanto para executá-lo precisamos garantir que sua máquina possua o [NPM](https://www.npmjs.com/get-npm) ou [YARN](https://classic.yarnpkg.com/en/docs/install/#windows-stable) para gerenciar as bibliotecas e pacotes. Caso seja necessário, instale também o [Node JS](https://nodejs.org/en/download/). Assegurado que sua máquina possui essas dependências instaladas, vamos clonar o projeto.
 
 ## Clonando o projeto
 ```bash
