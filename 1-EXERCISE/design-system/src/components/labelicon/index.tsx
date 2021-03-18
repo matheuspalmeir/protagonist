@@ -13,6 +13,11 @@ interface LabelIconI {
    labelText: string;
 }
 
+/**
+ * LabelIcon is a info text component, which can has an icon follow by a text.
+ *  You can use any other icon, and any personalized text passing it by props. 
+*/
+
 const LabelIcon = (props: LabelIconI) => {
     return <LabelIconContainer>
         {props.icon}

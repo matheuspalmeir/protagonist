@@ -1,6 +1,6 @@
 ```js
 
-<Dynamic {...sizeStyle} {...props}>
+<Dynamic>
         Children components here.
 </Dynamic>
 
