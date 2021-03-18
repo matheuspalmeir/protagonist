@@ -10,10 +10,10 @@ const GlobalStyle = createGlobalStyle`
         font-style: normal;
     };
 
-    body{
+    html, body{
         font-family: 'Roboto-Regular';
-        font-size: 18px;
-  }
+        margin: 0;
+    }
 `;
 
 export default GlobalStyle;

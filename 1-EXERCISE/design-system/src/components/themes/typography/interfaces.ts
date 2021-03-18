@@ -1,5 +1,6 @@
+import { CSSProperties } from "React";
 
-type TypeColor = {
+export type TypeColor = {
     darkLow: "rgba(0,0,0, 0.44)",
     darkMedium: "rgba(0,0,0, 0.60)",
     darkHigh: "rgba(0,0,0, 0.80)",
@@ -10,7 +11,7 @@ type TypeColor = {
 
 interface FontStylesI {
     tag: string,
-    fontSize: Array<number>,
+    fontSize: number[] | string[],
     fontWeight: number,
     lineHeight?: Array<string>,
     letterSpacing?: string,
@@ -19,5 +20,6 @@ interface FontStylesI {
 
 export interface BaseFontI {
     children: any
-    sizeStyle?: FontStylesI
+    sizeStyle?: FontStylesI,
+    style?: CSSProperties,
 }
