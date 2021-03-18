@@ -14,6 +14,17 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto-Regular';
         margin: 0;
     }
+
+    button, input, a{ 
+        border:none; 
+        text-decoration: none;
+        cursor: pointer;
+
+        :focus {
+            outline: none;
+        }
+
+    }
 `;
 
 export default GlobalStyle;

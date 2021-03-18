@@ -14,7 +14,8 @@ import {
     TRow, 
     TColumn, 
     THeader, 
-    LogoIcon
+    LogoIcon,
+    Typeface
 } from './style';
 
 const {
@@ -74,6 +75,34 @@ const Home = () => {
                 Types
             </Heading>
         </SubHeader>
+        <Typeface>
+            <div style={{width: 300, display: 'block'}}>
+                <Subheading 
+                    sizeStyle={{
+                        ...doubleExtraSmall, 
+                        color: mainThemeConfig.colors.darkMedium
+                    }}
+                >
+                    Typeface: Roboto
+                </Subheading>
+                <a href='https://fonts.google.com/specimen/Roboto'>
+                    https://fonts.google.com/specimen/Roboto
+                </a>
+            </div>
+            <div>
+                <Subheading
+                    sizeStyle={{
+                        ...doubleExtraSmall, 
+                        color: mainThemeConfig.colors.darkMedium
+                    }}
+                >
+                    Weights: Regular 400. Bold 700.
+                </Subheading>
+            </div>
+        </Typeface>
+        <SubHeader>
+            <Subheading>Headings</Subheading>
+        </SubHeader>
         <TypographyTable>
                 <TRow>
                     <THeader rowBgColor={'#f6f7f9'}>
@@ -87,49 +116,59 @@ const Home = () => {
                     </THeader>
                     <THeader rowBgColor={'#f6f7f9'}>
                         <BodyText> Weight </BodyText>
-                        </THeader>
+                    </THeader>
+                    <THeader rowBgColor={'#f6f7f9'}>
+                        <BodyText> Letter spacing </BodyText>
+                    </THeader>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading sizeStyle={extraLarge}>Display</Heading></TColumn>
                     <TColumn>Size</TColumn>
                     <TColumn>Line</TColumn>
                     <TColumn>Weight</TColumn>
+                    <TColumn>-</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading sizeStyle={large}>Heading L</Heading></TColumn>
                     <TColumn>Size</TColumn>
                     <TColumn>Line</TColumn>
                     <TColumn>Weight</TColumn>
+                    <TColumn>-</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading>Heading M</Heading></TColumn>
                     <TColumn>Size</TColumn>
                     <TColumn>Line</TColumn>
                     <TColumn>Weight</TColumn>
+                    <TColumn>-</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading sizeStyle={small}>Heading S </Heading></TColumn>
                     <TColumn>Size</TColumn>
                     <TColumn>Line</TColumn>
                     <TColumn>Weight</TColumn>
+                    <TColumn>-</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn><Heading sizeStyle={{...extraSmall, color: mainThemeConfig.colors.magenta }}>Heading XS </Heading></TColumn>
                     <TColumn>Size</TColumn>
                     <TColumn>Line</TColumn>
                     <TColumn>Weight</TColumn>
+                    <TColumn>-</TColumn>
                 </TRow>
                 <TRow >
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Subheading>Subheading</Subheading></TColumn>
                     <TColumn>Size</TColumn>
                     <TColumn>Line</TColumn>
                     <TColumn>Weight</TColumn>
+                    <TColumn>-</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><BodyText> BodyText </BodyText></TColumn>
                     <TColumn>Size</TColumn>
                     <TColumn>Line</TColumn>
                     <TColumn>Weight</TColumn>
+                    <TColumn>-</TColumn>
                 </TRow>    
         </TypographyTable>
 

@@ -51,6 +51,22 @@ export const Colors = styled.div`
 
 `;
 
+export const Typeface = styled.div`
+    background:transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 'nowrap';
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 30px;
+
+    a{
+        font-size: 10pt;
+        color: #8d93a1;
+    }
+`
+
 export const TypographyTable = styled.table`
     width: 100%;
     padding: 10px;
