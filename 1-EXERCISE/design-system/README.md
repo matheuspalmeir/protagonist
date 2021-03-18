@@ -1,6 +1,7 @@
 # Protagonist - Design System
 
 Olá avaliador, tudo bem? :call_me_hand:
+
 Eu batizei a minha jornada de desafios técnicos como "Protagonist". 
 No primeiro episódio da série "Protagonist", enfrentei o exercício 1! :muscle:
 
