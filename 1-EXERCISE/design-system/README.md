@@ -41,16 +41,17 @@ yarn
 
 Ainda estando no diretório do projeto, para inicializa-lo execute: 
 
-## `yarn start`
-
+```bash
+yarn start
+```
 Em seguida, é só abrir o endereço [http://localhost:3000](http://localhost:3000) no navegador. 
 
 # Compreendendo como a Tipografia e os componentes funcionam
 
 Toda a documentação do projeto foi gerada com a biblioteca React Styleguidist. Você encontrará dois comandos personalizados no "package.json, sendo eles:
 
-### `yarn styleguidist:server`
-### `yarn styleguidist:build`
+#### `yarn styleguidist:server`
+#### `yarn styleguidist:build`
 
 ## Acessando as instruções de uso dos componentes
 
