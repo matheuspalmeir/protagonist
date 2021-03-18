@@ -7,6 +7,12 @@ interface CardI {
     bgColor?: string;
 };
 
+/**
+ * Card is a generic info component, which has two  standart props children: 
+ * "content" and "footer".
+ * You can use any other React Node into content and footer. 
+*/
+
 const Card = (props: CardI) => {
 
     const bg = props.bgColor ||' #FFFF';
