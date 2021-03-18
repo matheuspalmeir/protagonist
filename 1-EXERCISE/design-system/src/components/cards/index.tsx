@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import {CardContainer, CardContent, CardFooter } from './style'; 
 
 interface CardI {
@@ -8,7 +8,7 @@ interface CardI {
 };
 
 const Card = (props: CardI) => {
-    
+
     const bg = props.bgColor ||' #FFFF';
 
     return(

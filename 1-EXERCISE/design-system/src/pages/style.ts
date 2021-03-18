@@ -7,6 +7,7 @@ interface HeaderI {
 interface TableI {
     rowBgColor?: string;
     columFontColor?: string;
+    display?: string;
 }
 
 export const Container = styled.div`
@@ -95,11 +96,9 @@ export const THeader = styled.th<TableI>`
 `
 
 export const TColumn = styled.td<TableI>`
-    flex-wrap: nowrap;
-    text-align: 'left';
     padding: 5px;
-    padding-left: 80px;
-    margin: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
     color: ${props => props.columFontColor || '#8d93a1'};
     border-bottom: 1.5px solid rgba(0,0,0,0.2);
 
@@ -107,4 +106,12 @@ export const TColumn = styled.td<TableI>`
 
 export const LogoIcon = styled.img`
     width: 40px;
+`
+export const Cell = styled.div`
+    width: 100%; 
+    display: flex; 
+    flex-wrap: nowrap; 
+    flex-direction: row;
+    justify-content: 'space-between';
+
 `

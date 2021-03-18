@@ -4,6 +4,8 @@ import Heading from '../components/themes/typography/Heading/index';
 import BodyText from '../components/themes/typography/BodyText';
 import Subheading from '../components/themes/typography/Subheading/index';
 import {TypeColor} from '../components/themes/typography/interfaces';
+import LabelIcon from '../components/labelicon/index';
+import {DesktopIcon, MobileIcon} from '../components/icons';
 import { mainThemeConfig } from '../components/themes/main/style';
 import {
     Container, 
@@ -15,7 +17,8 @@ import {
     TColumn, 
     THeader, 
     LogoIcon,
-    Typeface
+    Typeface,
+    Cell
 } from './style';
 
 const {
@@ -25,7 +28,7 @@ const {
     small, 
     large, 
     extraLarge
-} = mainThemeConfig.fontStyles;
+} = mainThemeConfig.fontStyles; 
 
 const Home = () => {
     return <Container>
@@ -123,51 +126,197 @@ const Home = () => {
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading sizeStyle={extraLarge}>Display</Heading></TColumn>
-                    <TColumn>Size</TColumn>
-                    <TColumn>Line</TColumn>
-                    <TColumn>Weight</TColumn>
-                    <TColumn>-</TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="48px (3,0 rem)"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="40px (2,50 rem)"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="52px"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="44px"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>Bold (700)</TColumn>
+                    <TColumn>-1.2</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading sizeStyle={large}>Heading L</Heading></TColumn>
-                    <TColumn>Size</TColumn>
-                    <TColumn>Line</TColumn>
-                    <TColumn>Weight</TColumn>
-                    <TColumn>-</TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="40px (2,5 rem)"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="32px (2,0 rem)"
+                                />
+                        </Cell>    
+                    </TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="44px"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="36px"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>Bold (700)</TColumn>
+                    <TColumn>-1</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading>Heading M</Heading></TColumn>
-                    <TColumn>Size</TColumn>
-                    <TColumn>Line</TColumn>
-                    <TColumn>Weight</TColumn>
-                    <TColumn>-</TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="32px (2,0 rem)"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="24px (1,5 rem)"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="36px"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="28px"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>Bold (700)</TColumn>
+                    <TColumn>-0.8</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Heading sizeStyle={small}>Heading S </Heading></TColumn>
-                    <TColumn>Size</TColumn>
-                    <TColumn>Line</TColumn>
-                    <TColumn>Weight</TColumn>
-                    <TColumn>-</TColumn>
+                    <TColumn display="flex">
+                        <Cell>   
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="24px (1,5 rem)"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="20px (1,25 rem)"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="28px"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="24px"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>Bold (700)</TColumn>
+                    <TColumn>-0.6</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn><Heading sizeStyle={{...extraSmall, color: mainThemeConfig.colors.magenta }}>Heading XS </Heading></TColumn>
-                    <TColumn>Size</TColumn>
-                    <TColumn>Line</TColumn>
-                    <TColumn>Weight</TColumn>
+                    <TColumn display="flex">
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="20px (1,5 rem)"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="18px (1,13 rem)"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="24px"
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="22px"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>Bold (700)</TColumn>
                     <TColumn>-</TColumn>
                 </TRow>
                 <TRow >
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><Subheading>Subheading</Subheading></TColumn>
-                    <TColumn>Size</TColumn>
-                    <TColumn>Line</TColumn>
-                    <TColumn>Weight</TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="16px (1,0 rem)"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText=""
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="20px"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>Bold (700)</TColumn>
                     <TColumn>-</TColumn>
                 </TRow>
                 <TRow>
                     <TColumn columFontColor={mainThemeConfig.colors.darkHigh}><BodyText> BodyText </BodyText></TColumn>
-                    <TColumn>Size</TColumn>
-                    <TColumn>Line</TColumn>
-                    <TColumn>Weight</TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText="16px (1,0 rem)"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>
+                        <Cell>
+                            <LabelIcon 
+                                icon={<DesktopIcon/>} 
+                                labelText=""
+                            />
+                            <LabelIcon 
+                                icon={<MobileIcon/>} 
+                                labelText="24px"
+                            />
+                        </Cell>
+                    </TColumn>
+                    <TColumn>Regular (400)</TColumn>
                     <TColumn>-</TColumn>
                 </TRow>    
         </TypographyTable>
