@@ -1,54 +1,58 @@
 # Protagonist - Design System
 
-Olá avaliador, tudo bem? 
+Olá avaliador, tudo bem? :call_me_hand:
 Eu batizei a minha jornada de desafios técnicos como "Protagonist". 
 No primeiro episódio da série "Protagonist", enfrentei o exercício 1! :muscle:
+
 Neste projeto, além de uma tipografia componentizada, você encontrará uma estrutura que permite criar vários temas e estilos globais para uma aplicação.
 Espero que goste! :relaxed: 
 
 # Clonando o projeto e instalando as dependências
-O projeto foi desenvolvido com:
-[Create React App](https://github.com/facebook/create-react-app) e algumas 
 
-## Available Scripts
+O projeto foi desenvolvido com React JS, portanto para executá-lo precisamos garantir que sua máquina possua o [NPM](https://www.npmjs.com/get-npm) ou [YARN](https://classic.yarnpkg.com/en/docs/install/#windows-stable) para gerenciar as bibliotecas e pacotes. Caso seja necessário, instale também o [Node JS](https://nodejs.org/en/download/). Assegurado que sua máquina possui essas dependências instaladas. vamos clonar o projeto. 
 
-In the project directory, you can run:
+## Clonando o projeto
+```bash
+git clone git@github.com:matheuspalmeir/protagonist
+```
+##  Instalando pacotes
+
+Algumas bibliotecas e pacotes que foram utilizados no desenvolvimento são: 
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Typescript](https://www.typescriptlang.org/)
+* [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+* [Styled Components](https://styled-components.com/docs/api)
+* [Styled System](https://styled-system.com/)
+* [React Styleguidist](https://github.com/styleguidist/react-styleguidist)
+
+Após acessar a página do projeto, vá até "1-EXERCISE/design-system" e estando neste diretório execute no seu terminal: 
+
+```bash
+npm install
+# or
+yarn 
+```
+
+Ainda estando no diretório do projeto, para inicializa-lo execute: 
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Em seguida, é só abrir o endereço [http://localhost:3000](http://localhost:3000) no navegador. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Compreendendo como a Tipografia e os componentes funcionam
 
-### `yarn test`
+Toda a documentação do projeto foi gerada com a biblioteca React Styleguidist. Você encontrará dois comandos personalizados no "package.json, sendo eles:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `yarn styleguidist:server`
+### `yarn styleguidist:build`
 
-### `yarn build`
+## Acessando as instruções de uso dos componentes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para acessar a documentação completa de como utilizar a tipografia e os componentes React, execute no terminal, estando no diretório do projeto:
+```bash
+yarn styleguidist:server
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
