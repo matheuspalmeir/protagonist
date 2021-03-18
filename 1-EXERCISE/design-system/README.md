@@ -44,7 +44,7 @@ Ainda estando no diretório do projeto, para inicializa-lo execute:
 ```bash
 yarn start
 ```
-Em seguida, é só abrir o endereço [http://localhost:3000](http://localhost:3000) no navegador. 
+Verifique se a execução foi correta, em seguida basta abrir o endereço [http://localhost:3000](http://localhost:3000) no navegador. 
 
 # Compreendendo como a Tipografia e os componentes funcionam
 
@@ -59,7 +59,7 @@ Para acessar a documentação completa de como utilizar a tipografia e os compon
 ```bash
 yarn styleguidist:server
 ```
-
+Agora, é só abrir a URL http://localhost:6060/ no seu navegador. 
 
 
 
