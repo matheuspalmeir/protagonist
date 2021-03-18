@@ -41,7 +41,7 @@ yarn
 
 Ainda estando no diretório do projeto, para inicializa-lo execute: 
 
-### `yarn start`
+## `yarn start`
 
 Em seguida, é só abrir o endereço [http://localhost:3000](http://localhost:3000) no navegador. 
 
