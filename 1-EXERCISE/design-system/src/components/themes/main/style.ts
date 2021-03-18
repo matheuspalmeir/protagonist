@@ -29,29 +29,34 @@ export const mainThemeConfig = {
 			fontWeight: 700,
 		  	lineHeight: ["24px", "28px"],
 		  	letterSpacing: "-0.6px"
-	   },
+	   	},
         medium: {      
 			tag: "h3",
 			fontSize: [24, 32],
 			fontWeight: 700,
 		  	lineHeight: ["28px", "36px"],
 		  	letterSpacing: "-0.8px"
-	   },
+	   	},
         large: {      
 			tag: "h2",
 			fontSize: [32, 40],
 			fontWeight: 700,
 		  	lineHeight: ["36px", "44px"],
 		  	letterSpacing: "-1px"
-	   },
-        extraLarge: 
-        {      
+	   	},
+        extraLarge: {      
           	tag: "h1",
           	fontSize: [40, 48],
           	fontWeight: 700,
         	lineHeight: ["44px", "52px"],
 			letterSpacing: "-1.2px"
- 		}
+ 		},
+		bodyText: {
+			tag: "div",
+			fontSize: [16],
+			fontWeight: 400,
+		  	lineHeight: ["24px"]
+		},
     },
 	breakpoints: ["319px", "599px"]
 };

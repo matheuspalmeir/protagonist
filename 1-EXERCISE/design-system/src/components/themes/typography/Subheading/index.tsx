@@ -1,5 +1,5 @@
 
-import Dynamic from "../Dynamic/Dynamic";
+import Dynamic from "../Dynamic";
 import {mainThemeConfig} from '../../main/style';
 import { BaseFontI } from "../interfaces";
 

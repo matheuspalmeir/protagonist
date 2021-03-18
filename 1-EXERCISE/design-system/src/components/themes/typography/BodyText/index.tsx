@@ -2,15 +2,15 @@ import Dynamic from "../Dynamic";
 import { BaseFontI } from "../interfaces";
 import {mainThemeConfig} from '../../main/style';
 
-const {medium} = mainThemeConfig.fontStyles;
+const {bodyText} = mainThemeConfig.fontStyles;
 
-const Heading = (props : BaseFontI) => {
+const BodyText = (props : BaseFontI) => {
 
-    const sizeStyle = props.sizeStyle || medium;
+    const sizeStyle = props.sizeStyle || bodyText;
 
     return <Dynamic {...sizeStyle} {...props}>
         {props.children}
     </Dynamic>
 }
 
-export default Heading;
+export default BodyText;
