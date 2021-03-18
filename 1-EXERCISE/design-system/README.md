@@ -26,7 +26,12 @@ Algumas bibliotecas e pacotes que foram utilizados no desenvolvimento são:
 * [Styled System](https://styled-system.com/)
 * [React Styleguidist](https://github.com/styleguidist/react-styleguidist)
 
-Após acessar a página do projeto, vá até "1-EXERCISE/design-system" e estando neste diretório execute no seu terminal: 
+Abra novamente o seu terminal e acesse o diretório projeto. 
+
+```bash
+cd /protagonist
+```
+Acesse agora, o caminho "1-EXERCISE/design-system" e estando neste diretório execute no seu terminal: 
 
 ```bash
 npm install
