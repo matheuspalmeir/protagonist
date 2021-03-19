@@ -36,6 +36,7 @@ const Home = () => {
             <Heading sizeStyle={{...large, color: '#ffff'}}>Colors and Types</Heading>
             <LogoIcon src={logo} alt="serasa"/>
         </Header>
+        
         <SubHeader>
             <Heading style={{
                     borderBottom: `3px solid ${mainThemeConfig.colors.magenta}`,
@@ -47,28 +48,29 @@ const Home = () => {
             </Heading>
         </SubHeader>
         <Colors>
-                {Object.keys(mainThemeConfig.colors).map((value: string) => {
-                    const currentColor = mainThemeConfig.colors[value as keyof TypeColor];
+            {Object.keys(mainThemeConfig.colors).map((value: string) => {
+                const currentColor = mainThemeConfig.colors[value as keyof TypeColor];
 
-                    return <Card 
-                            bgColor={(value === 'lightSolid') || (value === 'lightHigh') ? mainThemeConfig.colors.darkLow : '#ffff'}
-                            content={<div style={{
-                                            width: "100%",
-                                            height: "100px",
-                                            backgroundColor: currentColor,
-                                            borderRadius: 10,
-                                        }} 
-                                    />}
-                            footer={
-                                <>
-                                    <Subheading sizeStyle={{...doubleExtraSmall, color: currentColor, fontWeight: 700 }}>{value}</Subheading>
-                                    <BodyText sizeStyle={{...bodyText, color: currentColor}}>{currentColor}</BodyText>
-                                </>
-                            }
-                        />
-                    }
-                )}
+                return <Card 
+                        bgColor={(value === 'lightSolid') || (value === 'lightHigh') ? mainThemeConfig.colors.darkLow : '#ffff'}
+                        content={<div style={{
+                                        width: "100%",
+                                        height: "100px",
+                                        backgroundColor: currentColor,
+                                        borderRadius: 10,
+                                    }} 
+                                />}
+                        footer={
+                            <>
+                                <Subheading sizeStyle={{...doubleExtraSmall, color: currentColor, fontWeight: 700 }}>{value}</Subheading>
+                                <BodyText sizeStyle={{...bodyText, color: currentColor}}>{currentColor}</BodyText>
+                            </>
+                        }
+                    />
+                }
+            )}
         </Colors>
+        
         <SubHeader>
             <Heading style={{
                     borderBottom: `3px solid ${mainThemeConfig.colors.magenta}`,
@@ -103,6 +105,7 @@ const Home = () => {
                 </Subheading>
             </div>
         </Typeface>
+        
         <SubHeader>
             <Subheading>Headings</Subheading>
         </SubHeader>
