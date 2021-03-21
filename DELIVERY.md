@@ -2,7 +2,7 @@
 
 ### 4: Arquitetura
 
-## FRONTEND
+### FRONTEND
 Ao navegar, percebi que já utilizam React como tecnologia de frontend. O React é bastante performático
 e ajuda na agilidade do desenvolvimento. Na minha visão, com o React conseguimos acelerar alguns pontos como:
 validações, formulários, listeners..Além de obtermos reutilização de métodos e componentes através dos conceitos trazidos 
@@ -19,7 +19,7 @@ Mas algumas delas falham, então talvez seria interessante a implementação do 
 4. Revalidação das páginas: O NEXT permite de forma eficiente a atualização das informações da página estática depois 
 de um tempo definido.
 
-# BANCO DE DADOS
+### BANCO DE DADOS
 Acredito que uma base de dados não relacional (MongoDB) seja mais apropriada para guardar dados pessoais e financeiros
 de muitas pessoas. Talvez dois a quatro documentos com chave primária baseada no CPF e alguns relacionamentos de 
 chave estrangeira resolveriam boa parte dos dados necessários para analises. 
@@ -42,28 +42,28 @@ podem ser distribuidos em containers e tenham fácil manutenção. Exemplo: serv
 em determinados data warehouses, serviço financeiros com X bancos, de forma separada.  
 
 ### INFRAESTRUTURA
+
 Utilizar serviços em Nuvem para ter uma boa estabilidade, disponibilidade e escalabilidade controlável. Utilizar os sistemas de 
 cacheamento e logs da AWS. Espelhar algumas máquinas com a aplicação, criar clusters c/ diversos containers se necessário. 
 Uma máquina de staging para testes e merges de branchs de features na branch de desenvolvimento.
 Jenkins para Integração Continua, execução de testes e fácil deployment ou GitHub Actions. 
 
 ### MANUTENÇÃO, VERSIONAMENTO E EXPERIÊNCIA
--Versionamento de código com Git e seguindo o Gitflow
--Aplicação da ferramenta Sentry principalmente na camada de frontend da aplicação.
--Camada de disparo de logs no backend. 
--Desenvolvimento Orientado a Testes - Utilizando JEST para testes unitários e no frontend, testes end-to-end com
-Webdriver.io
--Sugiro o Google Analytics para coleta de métricas e comportamento dos usuários 
--Google Tag Manager
--Facebook Pixel 
--Hotjar ou amplitude para coletar mais dados sobre experiencia do usuário e dar mais inteligencia para os dados
 
+* Versionamento de código com Git e seguindo o Gitflow
+* Aplicação da ferramenta Sentry principalmente na camada de frontend da aplicação.
+* Camada de disparo de logs no backend. 
+* Desenvolvimento Orientado a Testes - Utilizando JEST para testes unitários e no frontend, testes end-to-end com
+Webdriver.io
+* Sugiro o Google Analytics para coleta de métricas e comportamento dos usuários 
+* Google Tag Manager
+* Facebook Pixel 
+* Hotjar ou amplitude para coletar mais dados sobre experiencia do usuário e dar mais inteligencia para os dados
 
 #### Projetos e artigos
 
 Durante a faculdade e profissionalmente nunca escrevi artigos, sempre foquei mais em evoluir soft skills, 
-mas sou um bom leitor de artigos na Medium e acompanho muitos artigos no Linkedin. 
----
+mas sou um bom leitor de artigos na Medium e acompanho muitos artigos no Linkedin.
 
 ### Nos deixe um feedback!
 
