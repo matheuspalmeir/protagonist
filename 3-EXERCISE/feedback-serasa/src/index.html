@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./assets/js/fontawesome.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+        <div class="wrapper-welcome">
+            <h2>Obrigado por usar nossos serviços!</h2>
+            <h5>Sua opinião é muito importante, que tal nos avaliar e ganhar uma planilha financeira?</h5>
+            <button id="myBtn" class="btn">Quero avaliar!</button></td>
+        </div>
+        <div class="wrapper-image">
+          <img src="./assets/images/feedback-image.png" width="300" height="300" alt="feedback-image"/>
+        </div>
+    </div>
+  </div>
+  <div class="footer">
+    <img src="./assets/images/logo-serasa.png" width="50" alt=logo-serasa />
+  </div>
+</body>
+
+<div id="myModal" class="modal">
+  <div class="content">
+      <span class="close">&times;</span>
+      <div class="title">Como você avalia nosso serviço?</div>
+      <div class="form-feedback">
+          <div class="question">
+              <div class="question-counter">
+                <h6 id="question-number"></h6>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
+              </div>
+              <div class="question-description"></div>
+          </div>
+          <div class="wrapper-stars">
+              <input class="input-name" type="text" name="inputName" />
+              <button type="button" class="btn btn-modal animate-bottom" id="saveName">Próximo</button>
+              <div class="star-widget"></div>
+            </div>
+      </div>
+  </div>
+</div>
+
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./assets/js/feedback.js"></script>
