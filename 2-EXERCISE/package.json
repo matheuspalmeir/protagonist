@@ -4,11 +4,17 @@
   "description": "2 - Refactoring/Bug + Logica beaseado num enunciado (Ex. Score/Perfil Serasa): - Score Turbo;",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^26.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
